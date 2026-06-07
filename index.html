@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boat Manager — Oroboro</title>
-  <meta name="description" content="The boat management app built by sailors, for sailors. Track maintenance, log repairs, and keep your boat in top shape.">
+  <title>Oroboro Boat Manager — Built by a sailor with 30,000 miles under the keel</title>
+  <meta name="description" content="The first boat management app designed by someone who actually uses it. 3 ocean crossings. 35 countries. Every repair done by hand.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -30,59 +30,23 @@
 <!-- Hero -->
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-badge">Built by sailors, for sailors</div>
-    <h1 class="hero-title">Your boat's<br>second brain.</h1>
-    <p class="hero-subtitle">One place to track every task, log every repair, and store every receipt — so nothing slips through the cracks between passages.</p>
+    <h1 class="hero-title">Built by a sailor with 30,000 miles under the keel.</h1>
+    <p class="hero-subtitle">The first boat management app designed by someone who actually uses it. 3 ocean crossings. 35 countries. Every repair done by hand.</p>
     <div class="hero-actions">
       <a class="btn-primary" href="https://boat.sailingoroboro.com" target="_blank" rel="noopener">Try it free →</a>
       <a class="btn-ghost" href="#features">See how it works</a>
     </div>
-    <div class="hero-meta">
-      <span>⚓ Free to use</span>
-      <span>🔒 Encrypted &amp; private</span>
-      <span>📱 Works offline</span>
+    <div class="trust-badges">
+      <span class="trust-badge">30,000+ nautical miles tested</span>
+      <span class="trust-divider">·</span>
+      <span class="trust-badge">3 ocean crossings</span>
+      <span class="trust-divider">·</span>
+      <span class="trust-badge">35+ countries</span>
     </div>
   </div>
-  <div class="hero-visual" aria-hidden="true">
-    <div class="app-mockup">
-      <div class="mockup-bar">
-        <span class="mockup-dot"></span><span class="mockup-dot"></span><span class="mockup-dot"></span>
-      </div>
-      <div class="mockup-screen">
-        <div class="mockup-header">
-          <div class="mockup-title">S/V Oroboro</div>
-          <div class="mockup-subtitle">Leopard 40 · 2018</div>
-        </div>
-        <div class="mockup-task overdue">
-          <span class="task-dot red"></span>
-          <div>
-            <div class="task-name">Impeller replacement</div>
-            <div class="task-date">Overdue · last done Jun 2023</div>
-          </div>
-        </div>
-        <div class="mockup-task">
-          <span class="task-dot yellow"></span>
-          <div>
-            <div class="task-name">SSB antenna inspection</div>
-            <div class="task-date">Due in 2 weeks</div>
-          </div>
-        </div>
-        <div class="mockup-task done">
-          <span class="task-dot green"></span>
-          <div>
-            <div class="task-name">Antifouling bottom job</div>
-            <div class="task-date">Done · May 18, 2024</div>
-          </div>
-        </div>
-        <div class="mockup-task done">
-          <span class="task-dot green"></span>
-          <div>
-            <div class="task-name">Fuel filters replaced</div>
-            <div class="task-date">Done · Mar 3, 2024</div>
-          </div>
-        </div>
-        <div class="mockup-add">+ Add task</div>
-      </div>
+  <div class="hero-visual">
+    <div class="phone-frame">
+      <img src="App%20Screenshots/IMG_1569.PNG" alt="Clearance dashboard showing Transit Log, Schengen and eTEPAY status at a glance" loading="eager">
     </div>
   </div>
 </section>
@@ -90,29 +54,39 @@
 <!-- Pain Points -->
 <section class="section pain" id="pain">
   <div class="section-inner">
-    <div class="eyebrow">The problem</div>
-    <h2 class="section-title">Boats break. Notes get lost.</h2>
-    <p class="section-subtitle">Managing a bluewater cruiser means juggling hundreds of systems, schedules, and repairs across months at sea — usually with no cell service.</p>
-    <div class="pain-grid">
-      <div class="pain-card">
-        <div class="pain-icon">📋</div>
-        <h3>Scattered notebooks</h3>
-        <p>Maintenance notes live in three different notebooks, a WhatsApp thread, and someone's memory. Good luck finding the impeller replacement date.</p>
+    <h2 class="section-title">Every sailor knows this feeling.</h2>
+    <div class="pain-list">
+      <div class="pain-item">
+        <p class="pain-statement">Your Transit Log expires in 47 days. Do you know that?</p>
+        <p class="pain-desc">The paperwork for non-EU boats in Greece alone can sink your season.</p>
       </div>
-      <div class="pain-card">
-        <div class="pain-icon">🗓️</div>
-        <h3>Missed service intervals</h3>
-        <p>You know the watermaker filter needs replacing every 200 hours, but you haven't been tracking hours. Was that last replacement in Grenada or Trinidad?</p>
+      <div class="pain-item">
+        <p class="pain-statement">The Schengen 180-day window has caught out sailors who thought they were fine.</p>
+        <p class="pain-desc">The rolling window is brutal. Most apps don't even know it exists.</p>
       </div>
-      <div class="pain-card">
-        <div class="pain-icon">🏪</div>
-        <h3>Lost receipts &amp; manuals</h3>
-        <p>The warranty card for the windlass is somewhere on the boat. The manual for the autopilot? Haven't seen it since Cape Town.</p>
+      <div class="pain-item">
+        <p class="pain-statement">Your maintenance log lives in three notebooks, a WhatsApp thread, and someone's memory.</p>
+        <p class="pain-desc">Good luck finding the last impeller replacement date.</p>
       </div>
-      <div class="pain-card">
-        <div class="pain-icon">👥</div>
-        <h3>Crew handoffs</h3>
-        <p>Your delivery crew fixed something while you were flying home. Now you have no idea what was changed, what was sourced, or what still needs attention.</p>
+      <div class="pain-item">
+        <p class="pain-statement">Every boat manager app you've tried was built by someone who has never sailed.</p>
+        <p class="pain-desc">Generic tools for weekend boaters. Nothing built for real bluewater cruisers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Breakthrough -->
+<section class="section breakthrough">
+  <div class="section-inner breakthrough-inner">
+    <div class="breakthrough-text">
+      <h2 class="section-title">Point your phone. It's imported.</h2>
+      <p class="breakthrough-statement">Take a photo of your insurance certificate. Your maintenance log. A Victron device label. A box of pasta. AI reads it and imports it into the right place — automatically.</p>
+      <p class="breakthrough-sub">No copy-pasting. No broken CSV imports. No reformatting spreadsheets at midnight in an anchorage with no WiFi.</p>
+    </div>
+    <div class="breakthrough-visual">
+      <div class="phone-frame">
+        <img src="App%20Screenshots/IMG_1581.PNG" alt="AI Import Assistant — take a photo or paste text to import data automatically" loading="lazy">
       </div>
     </div>
   </div>
@@ -120,68 +94,68 @@
 
 <!-- Features -->
 <section class="section features" id="features">
-  <div class="section-inner">
-    <div class="eyebrow">The solution</div>
-    <h2 class="section-title">Everything in one place,<br>everywhere you sail.</h2>
-    <div class="features-grid">
+  <div class="section-inner features-stack">
 
-      <div class="feature-row">
-        <div class="feature-text">
-          <h3>Task &amp; maintenance tracking</h3>
-          <p>Create tasks for any system on the boat — engine, rigging, electronics, safety gear. Set intervals, log completions, and always know what's due and what's overdue.</p>
-          <ul class="feature-list">
-            <li>Recurring task schedules (by date or engine hours)</li>
-            <li>Status tracking: pending, in progress, done</li>
-            <li>Notes and cost logging per completion</li>
-          </ul>
-        </div>
-        <div class="feature-visual">
-          <div class="feature-card-demo">
-            <div class="demo-row"><span class="badge red">Overdue</span> Impeller — port engine</div>
-            <div class="demo-row"><span class="badge yellow">Due soon</span> Rig inspection</div>
-            <div class="demo-row"><span class="badge green">Done</span> Oil change — starboard</div>
-          </div>
+    <!-- Feature 1: AI Photo Import -->
+    <div class="feature-row">
+      <div class="feature-text">
+        <div class="eyebrow">AI Photo Import</div>
+        <h3 class="feature-title">The import problem is solved.</h3>
+        <p>Your data lives in spreadsheets, notebooks, PDF manuals, and your head. Our AI reads photos of any document and maps the data automatically. Maintenance logs, insurance certificates, Transit Log documents, spare part labels, provisioning receipts. One photo. Done.</p>
+      </div>
+      <div class="feature-visual">
+        <div class="phone-frame">
+          <img src="App%20Screenshots/IMG_1581.PNG" alt="AI Import Assistant interface" loading="lazy">
         </div>
       </div>
+    </div>
 
-      <div class="feature-row reverse">
-        <div class="feature-text">
-          <h3>Photo documentation</h3>
-          <p>Attach photos to any task or repair. Document the state of a fitting before and after, capture serial numbers, store receipts. Your visual boat log, always at hand.</p>
-          <ul class="feature-list">
-            <li>Attach images to any task or note</li>
-            <li>Stored securely in the cloud</li>
-            <li>Access from any device</li>
-          </ul>
-        </div>
-        <div class="feature-visual">
-          <div class="feature-photo-demo">
-            <div class="photo-thumb"></div>
-            <div class="photo-thumb light"></div>
-            <div class="photo-thumb dark"></div>
-          </div>
+    <!-- Feature 2: Clearance Dashboard -->
+    <div class="feature-row reverse">
+      <div class="feature-text">
+        <div class="eyebrow">Clearance Dashboard</div>
+        <h3 class="feature-title">Know your legal status at a glance.</h3>
+        <p>Non-EU boats in Greece juggle Transit Log validity, eTEPAY payments, Schengen rolling windows, and user expiry dates simultaneously. One wrong date costs thousands. The Clearance dashboard shows everything in one screen — green, amber, or red. No surprises.</p>
+      </div>
+      <div class="feature-visual">
+        <div class="phone-frame">
+          <img src="App%20Screenshots/IMG_1568.PNG" alt="Clearance tab showing Transit Log and Schengen countdown gauges" loading="lazy">
         </div>
       </div>
+    </div>
 
-      <div class="feature-row">
-        <div class="feature-text">
-          <h3>Encrypted cloud sync</h3>
-          <p>Your data is encrypted before it ever leaves your device. Only you — with your PIN — can read it. We can't see your data, and neither can anyone else.</p>
-          <ul class="feature-list">
-            <li>AES-GCM encryption, client-side</li>
-            <li>PIN-protected access</li>
-            <li>Syncs across all your devices</li>
-          </ul>
-        </div>
-        <div class="feature-visual">
-          <div class="feature-encrypt-demo">
-            <div class="encrypt-icon">🔒</div>
-            <div class="encrypt-label">End-to-end encrypted</div>
-            <div class="encrypt-sub">Your PIN never leaves your device</div>
-          </div>
+    <!-- Feature 3: Mobile Web -->
+    <div class="feature-row">
+      <div class="feature-text">
+        <div class="eyebrow">Mobile Web App</div>
+        <h3 class="feature-title">No app store. No install. Works everywhere.</h3>
+        <p>Open it in any browser. Save it to your home screen — it feels exactly like a native app. Access it on your laptop when you're doing paperwork at a marina. Your partner sees the same data in real time. No sync conflicts. No "which version are you on?"</p>
+      </div>
+      <div class="feature-visual">
+        <div class="phone-frame">
+          <img src="App%20Screenshots/IMG_1565.PNG" alt="Boat Docs tab showing vessel identification and documents" loading="lazy">
         </div>
       </div>
+    </div>
 
+  </div>
+</section>
+
+<!-- Customization -->
+<section class="section customization">
+  <div class="section-inner customization-inner">
+    <h2 class="section-title">Your boat, your tabs.</h2>
+    <p class="section-subtitle">Sailing the Pacific? Hide the Greek paperwork tabs. Focused on provisioning for a long passage? Put Provisions front and center. Show only what matters to you, in the order you want it.</p>
+    <div class="tab-pills">
+      <span class="tab-pill active">Clearance</span>
+      <span class="tab-pill active">Provisions</span>
+      <span class="tab-pill active">Water Maker</span>
+      <span class="tab-pill active">Engine</span>
+      <span class="tab-pill faded">LPG</span>
+      <span class="tab-pill faded">Schengen</span>
+      <span class="tab-pill faded">Shipyard</span>
+      <span class="tab-pill faded">Winterize</span>
+      <span class="tab-pill faded">Upgrades</span>
     </div>
   </div>
 </section>
@@ -189,7 +163,6 @@
 <!-- Social Proof -->
 <section class="section proof" id="proof">
   <div class="section-inner">
-    <div class="eyebrow">From the crew of Oroboro</div>
     <h2 class="section-title">Built from 7 years at sea.</h2>
     <div class="proof-grid">
       <div class="proof-quote">
@@ -198,22 +171,26 @@
           <div class="proof-avatar">F</div>
           <div>
             <div class="proof-name">Francesco</div>
-            <div class="proof-role">Skipper, S/V Oroboro · Cape Town to Greece, 2018–present</div>
+            <div class="proof-role">Skipper S/V Oroboro · Cape Town to Greece, 2018–present</div>
           </div>
         </div>
       </div>
       <div class="proof-stats">
         <div class="proof-stat">
-          <div class="stat-num">7+</div>
-          <div class="stat-label">Years of sea trials</div>
+          <div class="stat-num">30,000+</div>
+          <div class="stat-label">nm sailed</div>
         </div>
         <div class="proof-stat">
           <div class="stat-num">3</div>
-          <div class="stat-label">Oceans tested on</div>
+          <div class="stat-label">ocean crossings</div>
         </div>
         <div class="proof-stat">
-          <div class="stat-num">∞</div>
-          <div class="stat-label">Impellers tracked</div>
+          <div class="stat-num">35+</div>
+          <div class="stat-label">countries</div>
+        </div>
+        <div class="proof-stat">
+          <div class="stat-num">Built</div>
+          <div class="stat-label">and maintained by the crew</div>
         </div>
       </div>
     </div>
@@ -223,11 +200,10 @@
 <!-- CTA -->
 <section class="section cta-section" id="cta">
   <div class="cta-inner">
-    <div class="eyebrow light">Get started</div>
     <h2 class="cta-title">Your boat deserves better records.</h2>
-    <p class="cta-subtitle">Free to use. No account required. Just open the app, set a PIN, and start logging.</p>
-    <a class="btn-primary large" href="https://boat.sailingoroboro.com" target="_blank" rel="noopener">Open Boat Manager →</a>
-    <p class="cta-note">Works in any browser · Installable as a home screen app · No ads</p>
+    <p class="cta-subtitle">Free during beta. No credit card. Works on any device.</p>
+    <a class="btn-primary large" href="https://boat.sailingoroboro.com" target="_blank" rel="noopener">Open Oroboro Boat Manager →</a>
+    <p class="cta-note">Works in any browser · Save to home screen · Shared with your crew · No ads · Encrypted</p>
   </div>
 </section>
 
