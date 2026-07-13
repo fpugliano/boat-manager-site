@@ -488,6 +488,12 @@ ul  { list-style: none; }
   filter: drop-shadow(0 20px 60px rgba(0,0,0,0.35));
 }
 
+.phone-portrait {
+  width: 272px;
+  max-width: 100%;
+  filter: drop-shadow(0 20px 60px rgba(0,0,0,0.22));
+}
+
 .hero-phone-mock {
   width: 400px;
   max-width: 100%;
