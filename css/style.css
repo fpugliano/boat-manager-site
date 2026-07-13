@@ -481,6 +481,76 @@ ul  { list-style: none; }
 .footer-copy a { color: #8E8E93; }
 .footer-copy a:hover { color: #F2F2F7; }
 
+/* ── Install / Add to Home Screen ────────────────── */
+.install { background: var(--bg-alt); }
+
+.install-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.install-card {
+  background: var(--bg);
+  border-radius: var(--radius);
+  padding: 2rem;
+  border: 1px solid var(--border);
+}
+
+.install-platform {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+.install-steps {
+  list-style: none;
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.install-steps li {
+  counter-increment: step;
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  font-size: 0.93rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.install-steps li::before {
+  content: counter(step);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.install-steps strong { color: var(--text); }
+
+.install-note {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
 /* ── Phone mock (angled/perspective) ─────────────── */
 .phone-mock {
   width: 272px;
@@ -535,6 +605,7 @@ ul  { list-style: none; }
 
   .proof-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .proof-stats { flex-direction: row; flex-wrap: wrap; gap: 1.5rem 2.5rem; }
+  .install-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
