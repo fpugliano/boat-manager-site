@@ -481,6 +481,24 @@ ul  { list-style: none; }
 .footer-copy a { color: #8E8E93; }
 .footer-copy a:hover { color: #F2F2F7; }
 
+/* ── Phone mock (angled/perspective) ─────────────── */
+.phone-mock {
+  width: 340px;
+  max-width: 100%;
+  filter: drop-shadow(0 20px 60px rgba(0,0,0,0.35));
+}
+
+.hero-phone-mock {
+  width: 400px;
+  max-width: 100%;
+  filter: drop-shadow(0 32px 80px rgba(0,0,0,0.4));
+}
+
+/* ── Features intro header ────────────────────────── */
+.features-intro {
+  margin-bottom: 4rem;
+}
+
 /* ── Responsive ───────────────────────────────── */
 @media (max-width: 960px) {
   .hero {
