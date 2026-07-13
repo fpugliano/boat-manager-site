@@ -484,11 +484,26 @@ ul  { list-style: none; }
 /* ── Install / Add to Home Screen ────────────────── */
 .install { background: var(--bg-alt); }
 
+.install-inner {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.install-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.install-content .section-title { margin-bottom: 0.75rem; }
+.install-content .section-subtitle { margin-bottom: 0; }
+
 .install-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: 1.25rem;
+  margin-top: 2rem;
 }
 
 .install-card {
@@ -605,6 +620,12 @@ ul  { list-style: none; }
 
   .proof-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .proof-stats { flex-direction: row; flex-wrap: wrap; gap: 1.5rem 2.5rem; }
+  .install-inner { grid-template-columns: 1fr; gap: 3rem; }
+  .install-visual { display: none; }
+  .install-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 600px) {
   .install-grid { grid-template-columns: 1fr; }
 }
 
