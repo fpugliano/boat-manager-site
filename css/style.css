@@ -632,13 +632,10 @@ ul  { list-style: none; }
 
   .proof-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .proof-stats { flex-direction: row; flex-wrap: wrap; gap: 1.5rem 2.5rem; }
-  .install-inner { grid-template-columns: 1fr; gap: 3rem; }
+  .install-inner { display: block; }
   .install-visual { display: none; }
+  .install-content { width: 100%; }
   .install-grid { grid-template-columns: 1fr 1fr; }
-}
-
-@media (max-width: 600px) {
-  .install-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
@@ -650,4 +647,8 @@ ul  { list-style: none; }
   .trust-badges { gap: 0.4rem; }
   .tab-pills { gap: 0.4rem; }
   .proof-stats { flex-direction: column; gap: 1.25rem; }
+  .install-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+  .install-card { padding: 1.25rem; }
+  .install-platform { margin-bottom: 1rem; }
+  .install-steps { gap: 0.75rem; }
 }
