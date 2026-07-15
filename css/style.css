@@ -517,7 +517,7 @@ ul  { list-style: none; }
 
 .install-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
   margin-top: 2rem;
 }
@@ -642,6 +642,7 @@ ul  { list-style: none; }
   .install-visual { display: flex; justify-content: center; margin-bottom: 3rem; }
   .install-visual .phone-mock { width: 280px; max-width: 80%; }
   .install-content { width: 100%; }
+  .install-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
