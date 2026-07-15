@@ -508,6 +508,10 @@ ul  { list-style: none; }
   justify-content: center;
 }
 
+.install-visual .phone-mock {
+  width: 340px;
+}
+
 .install-content .section-title { margin-bottom: 0.75rem; }
 .install-content .section-subtitle { margin-bottom: 0; }
 
@@ -633,7 +637,8 @@ ul  { list-style: none; }
   .proof-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .proof-stats { flex-direction: row; flex-wrap: wrap; gap: 1.5rem 2.5rem; }
   .install-inner { display: block; }
-  .install-visual { display: none; }
+  .install-visual { justify-content: center; margin-bottom: 2.5rem; }
+  .install-visual .phone-mock { width: 260px; }
   .install-content { width: 100%; }
   .install-grid { grid-template-columns: 1fr 1fr; }
 }
